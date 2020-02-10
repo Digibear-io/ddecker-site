@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  color: white;
+  font-family: "muli", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.hero {
+  display: flex;
+  margin-top: 50px;
+}
+
+.lhs {
+  margin-right: 50px;
+}
+
+.header {
+  z-index: -1;
+  position: absolute;
+  background-image: url("/src/imgs/background.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 780px;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.numbers {
+  margin-left: auto;
+  font-size: 24px;
+}
+
+.subhead1 {
+  margin-top: 190px;
+  color: #eacf98;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.subhead2 {
+  font-size: 36px;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+}
+
+.subhead3 {
+  font-size: 24px;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(234, 207, 152, 0.5);
+}
+
+.content {
+  padding-top: 10px;
+}
+
+.ctabutton1 {
+  margin-top: 50px;
+  width: 430px;
+  height: 80px;
+  font-size: 24px;
+  font-weight: lighter;
+  background: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+}
+
+form {
+  width: 550px;
+  height: 745px;
+
+  background-color: #eacf98;
+}
